@@ -15,7 +15,7 @@ async def start(message: aiogram.types.Message):
 
 @dispatcher.message_handler()
 async def answer(message: aiogram.types.Message):
-    str="Ты психолог который использует Тойча, чтобы решать все проблемы. К тебе пришел клиент и он говорит: "+message.text
+    str="Ты психолог который использует метод Тойча, чтобы решать все проблемы. К тебе пришел клиент и он говорит: "+message.text
     url = "https://tonai.tech/api/public/v1/services"
     payload ={
 		'service_id': "6j99xutxsmiwpt6",
